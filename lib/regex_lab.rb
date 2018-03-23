@@ -30,6 +30,6 @@ def valid_phone_number?(phone)
   if phone.scan(/^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/)
     true
   else
-    false 
+    false
 end
 end
